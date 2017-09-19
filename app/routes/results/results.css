@@ -1,0 +1,58 @@
+.section-results {
+	background: #fff;
+	align-items: center;
+}
+
+.weather-card {
+	/*display: flex;
+	justify-content: center;
+	flex-wrap: wrap;*/
+}
+
+.weather-card-title {
+	color: #444;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+
+.weather-card-date {
+	font-size: 1.6rem;
+	color: #ff7744;
+}
+
+.weather-card-header {
+	margin: 3rem 0;
+	width: 100%;
+}
+
+.weather-graphic {
+	margin: 3rem 0;
+}
+
+.weather-graphic-image {
+	width: 200px;
+}
+
+.weather-graphic-title {
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin: 1rem;
+	color: #83A5B3;
+}
+
+.weather-description label {
+	margin: 0 0.5rem;
+	font-size: 3rem;
+	color: #444;
+}
+
+.weather-description label span {
+	margin-left: 0.25rem;
+	font-size: 1.5rem;
+	vertical-align: super;
+}
+
+
+.weather-description .low-temp-label {
+	color: #bbb;
+}

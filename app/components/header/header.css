@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	background: #ff7744;
+}
+
+.header .form--weather {
+	flex-direction: row;
+}
+
+.header .input--weather {
+	margin: 0 1rem;
+}
+
+.logo {
+	display: none;
+}
+
+@media screen and (min-width: 620px) {
+	.header {
+		justify-content: space-between;
+	}
+
+	.logo {
+		display: block;
+	}
+}

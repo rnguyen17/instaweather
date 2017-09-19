@@ -1,0 +1,66 @@
+.section--results {
+	align-items: center;
+}
+
+/*----- Weather Card Header -----*/
+.weather-card-header {
+	margin-bottom: 1.5rem;
+	width: 100%;
+}
+
+.weather-card-title {
+	font-weight: 100;
+	text-transform: capitalize;
+}
+
+.weather-card-date {
+	color: #ff7744;
+}
+
+/*----- Weather Card Graphic -----*/
+
+.weather-graphic {
+	margin: 1.5rem 0;
+}
+
+.weather-graphic-image {
+	width: 120px;
+}
+
+.weather-graphic-title {
+	text-transform: capitalize;
+	margin: 1rem;
+	color: #83A5B3;
+}
+
+/*----- Weather Card Description -----*/
+
+.weather-description {
+	margin: 1.5rem 0;
+}
+
+.weather-description label {
+	margin: 0 0.5rem;
+	font-size: 2.074rem;
+}
+
+.weather-description label span {
+	margin: 0 0.25rem;
+	font-size: 1.44rem;
+	vertical-align: super;
+}
+
+
+.weather-description .low-temp-label {
+	color: #eee;
+}
+
+@media screen and (min-width: 620px) {
+	.weather-graphic-image {
+		width: 200px;
+	}
+
+	.weather-description label {
+		font-size: 2.986rem;
+	}
+}
