@@ -17,20 +17,21 @@ body {
 
 h1 {
 	max-width: 900px;
-	font-size: 2.986rem
+	font-size: 2.076rem;
 }
 
 h2 {
-	font-size: 2.074rem;
+	font-size: 1.44rem;
 }
 
 h3 {
-	font-size: 1.44rem;
+	font-size: 1.2rem;
 }
 
 h4 {
 	margin: 0.25rem 0;
-	font-size: 1.2rem;
+	font-size: 1rem;
+	font-weight: 400;
 }
 
 a {
@@ -42,41 +43,35 @@ ul, li {
 	list-style: none;
 }
 
-main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	background: #ffbb66 url('~img/background-pattern.svg');
-}
-
 section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 1.5rem;
+	flex: 1;
+	padding: 6rem 1rem;
+	min-height: 100%;
 	text-align: center;
 }
 
 @media screen and (min-width: 620px) {
 
 	h1 {
-		font-size: 4.3rem;
+		font-size: 2.488rem;
 	}
 
 	h2 {
-		font-size: 2.986rem;
+		font-size: 1.728rem;
 	}
 
 	h3 {
-		font-size: 2.074rem;
-	}
-
-	h4 {
 		font-size: 1.44rem;
 	}
 
+	h4 {
+		font-size: 1.2rem;
+	}
+
 	section {
-		padding: 3rem;
 		justify-content: center;
 	}
 }

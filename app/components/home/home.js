@@ -6,7 +6,7 @@ const Home = (props) => {
 	return (
 		<section className="section--home">
 			<h1 className="title--display1">Curious About The Weather?</h1>
-			<h4>Enter any city and state (optional)</h4>
+			<h4 className="title--display4">Enter any city and state (optional)</h4>
 			<Weather />
 		</section>
 	)

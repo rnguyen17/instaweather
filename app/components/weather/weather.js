@@ -5,7 +5,7 @@ import './weather.css';
 
 export default class WeatherForm extends React.Component {
 	constructor(props) {
-		super(props)
+		super(props);
 
 		this.state = {
 			cityToSearch: '',
@@ -13,7 +13,6 @@ export default class WeatherForm extends React.Component {
 		}
 
 		this.resetCityInput = (event) => {
-			// Fix this later
 			this.textInput.blur();
 
 			this.setState({
@@ -32,25 +31,24 @@ export default class WeatherForm extends React.Component {
 	}
 
 	render() {
-		let weatherFormPlaceholder = this.props.weatherFormPlaceholder,
-			cityToSearch = this.state.cityToSearch,
-			currentCityInput = this.state.currentCityInput;
+		let { weatherFormPlaceholder }= this.props,
+			{ cityToSearch, currentCityInput } = this.state;
 
 		return (
 			<form className="form--weather">
 				<input 
 					className="input--weather"
-					name="city"
-					placeholder={weatherFormPlaceholder}
-					required
 					autoComplete="off"
+					required
+					name="city"
 					type="textfield"
+					placeholder={weatherFormPlaceholder}
 					value={currentCityInput}
 					onChange={this.updateCurrentCityInput}
 					ref={(input) => { this.textInput = input; }}/>
 				<Link to={{
-					pathname: '/results',
-					search: '?city=' + cityToSearch	
+						pathname: '/results',
+						search: '?city=' + cityToSearch	
 					}}>
 					<button 
 						className="button button--submit"

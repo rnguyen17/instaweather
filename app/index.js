@@ -12,7 +12,7 @@ const App = (props) => {
 	return (
 		<BrowserRouter>
 			<main id="main">
-				<Header title="InstaWeather"/>
+				<Header />
 				<Route exact path="/" component={Home}/>
 				<Route path="/results" component={Results} />
 			</main>

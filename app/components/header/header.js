@@ -22,7 +22,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-	title: 'Weather App'
+	title: 'iWeather'
 }
 
 export default Header;

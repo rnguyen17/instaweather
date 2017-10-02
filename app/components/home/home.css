@@ -1,3 +1,7 @@
+.section--home {
+	background: #ff5511 url('~img/background-pattern.svg');
+}
+
 .title--display1 {
 	margin-bottom: 3rem;
 }

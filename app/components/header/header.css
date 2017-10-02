@@ -1,9 +1,11 @@
 .header {
+	position: fixed;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
-	background: #ff7744;
+	width: 100%;
+	background: #ff5511;
 }
 
 .header .form--weather {
@@ -11,19 +13,18 @@
 }
 
 .header .input--weather {
-	margin: 0 1rem;
+	margin: 0;
+}
+
+.header .button--submit {
+	border-radius: 0;
 }
 
 .logo {
-	display: none;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
 }
 
-@media screen and (min-width: 620px) {
-	.header {
-		justify-content: space-between;
-	}
-
-	.logo {
-		display: block;
-	}
+.logo:hover {
+	color: #444;
 }
